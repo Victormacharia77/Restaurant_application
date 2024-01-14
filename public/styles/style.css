@@ -110,6 +110,7 @@ margin-top: 20%;
     justify-content: center;
     align-items: center;
  }
+ /*
  .craft_meat_container{
     display: inline-block;
  }
@@ -141,7 +142,7 @@ margin-top: 20%;
 #ingredients-container p{
     font-size: 1.2rem;
     font-family: 'Times New Roman';
-   flex-direction: column;   
+   
 }
 
 #ingredients-container h6{
@@ -164,6 +165,64 @@ display: inline-block;
     display: inline-block;
     margin-right: 10%;
 
+}
+
+
+
+ .masterchef-container p{
+
+    font-size:1.2rem;
+ }
+.masterchef-container h5{
+    
+   
+    font-size: 2rem;
+    font-family:'Times New Roman';
+   
+}
+*/
+.container {
+    display: flex; /*uses flexbox layout structure */
+    justify-content: space-between; /* Adjust this according to your spacing preference */
+}
+
+.craft_meat_container,
+#ingredients-container,
+.masterchef-container {
+    width: 30%; /* Adjust the width according to your layout */
+    box-sizing: border-box; /*ensures that padding and borders are included in the specific width*/
+}
+.craft_meat_container,
+#ingredients-container,
+.masterchef-container p{
+    font-size: 1,2rem;
+}
+
+.craft_meat_container h5,
+#ingredients-container h6,
+.masterchef-container h1{
+    font-size: 1.2rem;
+}
+.masterchef-container h1{
+    margin-top: 10%;
+}
+#ingredients-container p{
+    margin-top: 3%;
+}
+
+#ingredients-container p,
+#ingredients-container h6,
+.masterchef-container p,
+.masterchef-container h5 {
+    font-family: 'Times New Roman';
+}
+
+#ingredients-container,
+.craft_meat_container,
+.masterchef-container {
+    display: inline-block; /* allows the containers to appear next to each other horizontally*/
+    vertical-align: top; /* Align containers from the top */
+    margin-bottom: 20px; /* Adjust this value for spacing between containers */
 }
 
 

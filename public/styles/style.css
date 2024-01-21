@@ -230,7 +230,9 @@ display: inline-block;
     vertical-align: top; /* Align containers from the top */
     margin-bottom: 20px; /* Adjust this value for spacing between containers */
 }
-
+body{
+    background-color: black;
+}
 
 
 

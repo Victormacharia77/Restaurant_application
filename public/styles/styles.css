@@ -83,14 +83,6 @@ margin-top: 20%;
     font-size: 2rem;
 }
 
-
-
-
-/*setting a backround image*/
-/*setting a backround size;use cover for the image to cover an entire element*/
-/*setting a backround attachment;makes sure the background image covers the element,with no stretching*/
-/*setting a backround image*/
-
 .outing-container {
    
     display: flex;
@@ -116,77 +108,7 @@ margin-top: 20%;
     justify-content: center;
     align-items: center;
  }
- /*
- .craft_meat_container{
-    display: inline-block;
- }
-
- .craft_meat_container img {
-    
-    width: 200px;
-    height: 300px;
-    margin-top: 2%;
-    margin-left: 7%;
- }
- .craft_meat_container h5{
-    
-    font-size: 2rem;
-    font-family: 'Times New Roman';
-
- }
-
- .craft_meat_container p{
-    
-    font-size: 1.2rem;
-    font-family: 'Times New Roman';
- }
-#ingredients-container{
-    display: inline-block;
-    
-}
  
-#ingredients-container p{
-    font-size: 1.2rem;
-    font-family: 'Times New Roman';
-   
-}
-
-#ingredients-container h6{
-    font-size: 2rem;
-    font-family: 'Times New Roman';
-    
-    
-    
-}
-.container{
-    width: 100%;
-
-}
-#ingredients-container{
-display: inline-block;
-
-
-}
-.craft_meat_container{
-    display: inline-block;
-    margin-right: 10%;
-
-}
-
-
-
- .masterchef-container p{
-
-    font-size:1.2rem;
- }
-.masterchef-container h5{
-    
-   
-    font-size: 2rem;
-    font-family:'Times New Roman';
-   
-}
-*/
 .container {
     display: flex; /*uses flexbox layout structure */
     justify-content: space-between; /* Adjust this according to your spacing preference */
